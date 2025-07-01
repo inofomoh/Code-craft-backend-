@@ -1,1 +1,16 @@
-{ "name": "codecraft-backend" }
+{
+  "name": "code-craft-backend",
+  "version": "1.0.0",
+  "description": "Backend for Code Craft project",
+  "main": "deploy.js",
+  "scripts": {
+    "start": "node deploy.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
